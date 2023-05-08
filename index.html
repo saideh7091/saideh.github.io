@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Persian Food Recipes</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="Times New Roman" href="https://fonts.googleapis.com">
+    <link rel="Times New Roman" href="https://fonts.gstatic.com" crossorigin>
+    <!--Montserrat font-->
+   <style type="text/css">
+html { background: white; margin:0;}
+ body { font-family: 'Courier New', Courier; "Times New Roman" }
+h1 {font-family: 'Times New Roman';}
+h2 {font-family: 'Times New Roman';}
+#wrap {
+   width:850px;
+   margin:0 auto;
+}
+#left_col {
+   float:left;
+   width:300px;
+}
+#right_col {
+   float:right;
+   width:550px;
+}
+.jobfont {
+font-weight:bold;
+color:#e62a00;
+}
+
+.topics a {color: #008060;} /* un-visited link */
+a:link {color:#00e6ac;} /* visited link */
+a:visited {color:#00e6ac;} /* visited link */
+a:hover {color:#4d4dff;}   /* mouse over link */
+td { padding: 10px; text-align: left;}
+</style>
+  </head>
+  <body>
+    <section>
+      <!-- MOBILE NAVIGATION -->
+      <div class="w3-container w3-padding-16 w3-border-bottom w3-hide-medium w3-hide-large">
+        <a href="#home" class="w3-bar-item w3-button w3-hover-none">Homepage</a>
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="toggleNavigation()">&#9776;</a>
+      </div>
+      <div id="mobile-nav" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-sticky">
+        <a href="#zaffaran" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">ZAFFARAN</a>
+        <a href="#foods" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">FOODS</a>
+        <a href="#cakes" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">CAKES</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">CONTACT</a>
+      </div>
+
+      <!-- SOCIAL SECTION -->
+      <section class="image-section w3-quarter w3-fixed w3-padding-small">
+        <!--IMAGE/AVATAR-->
+        <img src="saideh.jpg" class="w3-circle w3-border w3-border-sand" style="border-width: 3px !important;"/>
+        <!--SCIAL NETWORK BUTTONS-->
+        <div class="links w3-margin-top w3-padding-small">
+         
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="http://linkedin.com/in/saideh-ahangary/" target="_blank">
+             <i data-feather="linkedin"></i>
+          </a>
+        </div>
+        <!--CV DOWNLOAD BUTTON-->
+        <div class="w3-container w3-padding-16">
+          <a href="cv.pdf" class="w3-amber w3-hover-amber w3-button w3-round-small w3-hover-deep-orange w3-padding-large" target="_blank" download="CV_saideh.pdf">
+            <i data-feather="arrow-down" style="vertical-align: -0.35em;"></i>
+            <span class="w3-margin-center download-text">DOWNLOAD CV</span>
+          </a>
+        </div>
+      </section>
+
+      <!--CV CONTENT SECTION-->
+      <section class="w3-threequarter w3-padding-large w3-right">
+        <!--DESKTOP NAVIGATION-->
+        <div class="w3-container w3-padding-large w3-border-bottom w3-hide-small">
+          <a href="#home" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green">Homepage</a>
+          <a href="#contact" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">CONTACT</a>
+          <a href="#cakes" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">CAKES</a>
+          <a href="#Foods" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">FOODS</a>
+          <a href="#zaffaran" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">ZAFFARAN</a>
+        </div>
+        <div class="content-container w3-margin-top-2">
+          <!--HOME SECTION-->
+          <div id="home">
+            <h1>Persian Foods Recipes</h2>
+            <h2></h3>
+            <p></p>
+          </div>
+
+          <!--ZAFFARAN SECTION-->
+          <div id="zaffaran" >
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">ZAFFARAN</h2>
+            <p class="w3-margin-top-2">
+              <br>
+              IS LOADING...
+    <br>
+            </p>
+            <p class=""> 
+           
+           <br>
+            </p>
+            <p class=""> 
+
+            </p>
+          </div>
+
+          <!--FOODS-->
+          <div id="foods" >
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">FOODS</h2>
+            <div >
+              <br>
+              <p>is loading...</a> </p>
+              <br>
+            </div>
+            
+          </div>
+        
+         <!--CAKES-->
+          <div id="cakes">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">CAKES</h2>
+            <div >
+              <br>
+           is loading... <br>
+            </div>
+            
+          </div>
+          <!--CONTACT SECTION-->
+          <div id="contact" >
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">CONTACT ME</h3>
+            <div  style="font-weight: 500;">
+              <br>
+              <p>   Send me an email <a href="mailto:s.ahangary@vu.nl">here</a></p>
+              <br>
+            </div>
+          </div>
+
+        <!--FOOTER-->
+        <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+        <footer class="w3-container w3-border-top w3-center w3-margin-top-4">
+          <p>© 2023 - Saideh Ahangary</p>
+           <!-- End footer -->
+        </footer>
+
+        <!--END OF CV SECTION-->
+      </section>      
+    </section>
+    <script>
+      // Function to toggle mobile navigation
+      function toggleNavigation() {
+        let nav = document.getElementById("mobile-nav");
+        if (nav.classList.contains('w3-show')) {
+          nav.classList.remove('w3-show');
+        } else { 
+          nav.classList.add('w3-show');
+        }
+      }
+    </script>
+    <script>
+      // Script to load feather icons
+      feather.replace()
+    </script>
+  </body>
+</html>
